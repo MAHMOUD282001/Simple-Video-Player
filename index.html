@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="video-player">
+            <div class="container">
+                <div class="video">
+                    <video id="videoPlayer"></video>
+                </div>
+                <div class="control-btns">
+                    <input type="file" class="handle-video" accept="video/*" />
+                    <div class="btns">
+                        <button class="shadow__btn backward">
+                            <i class="fa-solid fa-backward"></i>
+                        </button>
+                        <button class="shadow__btn play-pause">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                        <button class="shadow__btn forward">
+                            <i class="fa-solid fa-forward"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
